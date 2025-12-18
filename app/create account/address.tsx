@@ -19,7 +19,6 @@ import { useRouter } from 'expo-router'
 import CustomInput from '@/components/CustomInput/CustomInput'
 import { Ionicons } from '@expo/vector-icons'
 
-// Nigerian States and LGAs data
 const nigerianStates = [
   { id: 1, name: 'Lagos', lgas: ['Alimosho', 'Ajeromi-Ifelodun', 'Epe', 'Ikorodu', 'Mainland', 'Ikeja', 'Lagos Island', 'Shomolu'] },
   { id: 2, name: 'Abuja', lgas: ['Abuja Municipal', 'Bwari', 'Gwagwalada', 'Kuje', 'Kwali'] },
